@@ -1,0 +1,75 @@
+[
+  {
+    "timePeriod": "2024 - Present",
+    "company": "DSTA",
+    "position": "Senior Software Engineer",
+    "description": [
+      "Led reviews with stakeholders and designers to determine technical feasibility of requirements. ",
+      "Coached junior developers on best practices with ReactJS, Material-UI, Redux Toolkit. ",
+      "Conducted code reviews to ensure code readability and maintainability. ",
+      "Implemented route drawing and route simulation with ArcGIS JS. "
+    ],
+    "techstack": [
+      "React",
+      "TypeScript",
+      "ArcGIS",
+      "Redux",
+      "Jest",
+      "Playwright"
+    ]
+  },
+  {
+    "timePeriod": "Jun 2022 - 2024",
+    "company": "DSTA",
+    "position": "Software Engineer",
+    "description": [
+      "Led and created a custom NPM library with Typescript, Rollup, and Material-UI to support the standardization of icons department-wide. ",
+      "Worked alongside designers to roll out a React-based webpage demonstrating the usage of the icons library. The application supports downloading of icons in various formats, sizes, and colors. ",
+      "Provided documentation on the maintenance, contribution guidelines, and usage of the NPM library to support InnerSource culture within the department. ",
+      "Received DSTA Innovation Award 2023 (Individual) for the product. "
+    ],
+    "techstack": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Jest",
+      "Rollup",
+      "Playwright"
+    ]
+  },
+  {
+    "timePeriod": "Feb 2022 - May 2022",
+    "company": "SAP",
+    "position": "Digital Labs Intern",
+    "description": [
+      "Usage of SAC Analytics Application to provide data analytics for SAP’s Innovation team. "
+    ],
+    "techstack": ["SAP", "Javascript"]
+  },
+  {
+    "timePeriod": "Oct 2021 - Jan 2022",
+    "company": "SATS",
+    "position": "Intern (Consumer Marketing & Digital Experience)",
+    "description": [
+      "Creation and deployment of two React web applications with Azure Static Web App and Azure Functions for airport operations. ",
+      "Successfully launched application for use by check-in staff at counters serviced by SATS. ",
+      "Usage of GitHub for version control and deployment of application. ",
+      "Creation of PDF readers to assist in SATS sustainability effort, reducing the need for manual data retrieval. ",
+      "Worked closely with subject matter experts at SATS to draft up wireframes in Figma to optimize UI/UX. "
+    ],
+    "techstack": ["React", "Javascript", "Figma", "Azure", "Python"]
+  },
+  {
+    "timePeriod": "Jan 2021 - Jun 2021",
+    "company": "Corning Inc.",
+    "position": "Data Analyst Intern (Contract Manufacturing)",
+    "description": [
+      "Designed customer-facing website prototype using Figma, working closely with Supply Chain subject matter experts to optimize UI/UX of the application. ",
+      " Presented application process flows to global teams, managing to sell the application to the team regarding the feasibility of the project. ",
+      "Built full-stack application with custom API in Flask that served data to React front-end, achieving approximately 70% time reduction in supplier sourcing efforts. ",
+      "Designed Executive Support System (ESS) with PowerBI, improving the visibility of department’s Corporate Social Responsibility efforts and reduced time spent on manual data cleansing by 80%. ",
+      "Worked with a global team for data verification using Excel and Python across all departmental systems, improving team efficiency and productivity. "
+    ],
+    "techstack": ["React", "Javascript", "PowerBI", "Figma", "Python"]
+  }
+]

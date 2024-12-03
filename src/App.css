@@ -1,0 +1,23 @@
+:root {
+  --layer01: #1b2423;
+  --layer02: #35441d;
+  --layer03: #4d2a0c;
+  --text-primary: #e2eee0;
+  --text-secondary: #b6a054;
+  --surface: #323232;
+  --common-margin: 40px;
+  background-color: var(--layer01);
+  color: var(--text-primary);
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  filter: brightness(65%);
+}
