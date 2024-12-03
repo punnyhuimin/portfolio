@@ -21,7 +21,7 @@ interface ExperienceCardRightProps {
   techstack: string[];
 }
 
-const imgToIcon = (src: any, altText: string) => {
+const imgToIcon = (src: string, altText: string) => {
   return (
     <img
       src={src}

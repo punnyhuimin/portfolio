@@ -54,12 +54,13 @@ function RightAbout() {
             <br />
             <br />
             Currently, I am working full time on defence solutions to build up
-            Singapore's technological edge in the defence sector. I created a
-            standardised icon library to ease the process of design
-            standardisation across Singapore's defence solutions.
+            Singapore&apos;s technological edge in the defence sector. I created
+            a standardised icon library to ease the process of design
+            standardisation across Singapore&apos;s defence solutions.
             <br />
             <br />
-            When I'm off work, I enjoy hitting the gym or watching Rotten Mango.
+            When I&apos;m off work, I enjoy hitting the gym or watching Rotten
+            Mango. Still trying to make the perfect latte art.
           </a>
         </Grid>
       </Grid>
