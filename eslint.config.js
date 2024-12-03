@@ -1,31 +1,31 @@
+import globals from 'globals';
+import pluginJs from '@eslint/js';
+import tseslint from 'typescript-eslint';
+import pluginReact from 'eslint-plugin-react';
+
+/** @type {import('eslint').Linter.Config[]} */
 export default [
+  { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
   {
-    // extends: [
-    //   'eslint:recommended',
-    //   'plugin:import/recommended',
-    //   'plugin:prettier/recommended',
-    // ],
-    // parserOptions: {
-    //   ecmaVersion: 'latest',
-    //   sourceType: 'module',
-    // },
-    {
-    plugins: ['prettier', 'import'],},
+    languageOptions: {
+      globals: globals.browser,
+      parser: 'prettier',
+    },
+  },
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommended,
+  pluginReact.configs.flat.recommended,
+  {
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+  },
+  {
     rules: {
-      'prettier/prettier': ['error'],
-      'import/order': [
-        'error',
-        {
-          groups: [
-            ['builtin', 'external'],
-            'internal',
-            'sibling',
-            'parent',
-            'index',
-          ],
-          'newlines-between': 'always',
-        },
-      ],
+      semi: ['warn', 'always'],
+      'react/react-in-jsx-scope': 'off',
     },
   },
 ];
