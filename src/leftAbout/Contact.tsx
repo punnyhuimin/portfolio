@@ -20,12 +20,17 @@ const Contact = () => {
           I make websites work, one pixel at a time...
         </a>
       </Grid>
-      <Grid size={{ xs: 12, md: 12 }} sx={{ paddingTop: 1 }}>
+      <Grid
+        container
+        spacing={1}
+        size={{ xs: 12, md: 12 }}
+        sx={{ paddingTop: 1 }}
+      >
         <IconButton
           disableRipple
           target="_blank"
           rel="noopener noreferrer"
-          sx={{ m: 0, padding: 0, pr: 1 }}
+          sx={{ m: 0, padding: 0 }}
           href="https://linkedin.com/in/punhuimin"
         >
           <LinkedIn />
@@ -34,7 +39,7 @@ const Contact = () => {
           disableRipple
           target="_blank"
           rel="noopener noreferrer"
-          sx={{ m: 0, padding: 0, pr: 1 }}
+          sx={{ m: 0, padding: 0 }}
           href="https://github.com/punnyhuimin"
         >
           <GitHub />
@@ -43,7 +48,7 @@ const Contact = () => {
           disableRipple
           target="_blank"
           rel="noopener noreferrer"
-          sx={{ m: 0, padding: 0, pr: 1 }}
+          sx={{ m: 0, padding: 0 }}
           href="mailto: punhuimin99@gmail.com"
         >
           <Mail />
