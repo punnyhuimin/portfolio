@@ -8,6 +8,7 @@ import ExperienceCard from './experienceCard/ExperienceCard';
 import experience from './experience.json' with { type: 'json' };
 import { useTheme } from '@mui/material';
 import Footer from '../Footer';
+import FlipCard from './flipCard/FlipCard';
 
 function RightAbout() {
   const theme = useTheme();
@@ -85,6 +86,11 @@ function RightAbout() {
                 techstack={exp.techstack}
               />
             );
+          })}
+        </Grid>
+        <Grid container spacing={4} size={12}>
+          {experience.map((exp, index) => {
+            return <FlipCard key={exp} />;
           })}
         </Grid>
       </Grid>

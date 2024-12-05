@@ -22,6 +22,7 @@ const Contact = () => {
       </Grid>
       <Grid size={{ xs: 12, md: 12 }} sx={{ paddingTop: 1 }}>
         <IconButton
+          disableRipple
           target="_blank"
           rel="noopener noreferrer"
           sx={{ m: 0, padding: 0, pr: 1 }}
@@ -30,6 +31,7 @@ const Contact = () => {
           <LinkedIn />
         </IconButton>
         <IconButton
+          disableRipple
           target="_blank"
           rel="noopener noreferrer"
           sx={{ m: 0, padding: 0, pr: 1 }}
@@ -38,6 +40,7 @@ const Contact = () => {
           <GitHub />
         </IconButton>
         <IconButton
+          disableRipple
           target="_blank"
           rel="noopener noreferrer"
           sx={{ m: 0, padding: 0, pr: 1 }}
