@@ -53,10 +53,11 @@ function RightAbout() {
             development skills thereafter.
             <br />
             <br />
-            Currently, I am working full time on defence solutions to build up
-            Singapore&apos;s technological edge in the defence sector. I created
-            a standardised icon library to ease the process of design
-            standardisation across Singapore&apos;s defence solutions.
+            Currently, I am working full time on C3 defence solutions to build
+            up Singapore&apos;s technological edge in the defence sector.
+            Previously, I created a standardised icon library to ease the
+            process of design standardisation across Singapore&apos;s defence
+            solutions.
             <br />
             <br />
             When I&apos;m off work, I enjoy hitting the gym or watching Rotten
