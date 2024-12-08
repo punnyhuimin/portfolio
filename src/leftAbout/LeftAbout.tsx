@@ -2,7 +2,7 @@
 
 // This stack is responsive and will change to become full length on a smaller screen
 import Grid from '@mui/material/Grid2';
-import huimin from '../assets/huimin-cropped.jpg';
+import huimin from '../assets/huimin-cropped.webp';
 import Contact from './Contact';
 
 function LeftAbout() {

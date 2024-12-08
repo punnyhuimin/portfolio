@@ -8,9 +8,9 @@ import ArcGISIcon from '../../icons/ArcGISIcon';
 import JestIcon from '../../icons/JestIcon';
 import RollupIcon from '../../icons/RollupIcon';
 import ReduxIcon from '../../icons/ReduxIcon';
-import figma from '../../assets/Figma-logo.png';
-import python from '../../assets/Python-logo.png';
-import azure from '../../assets/Azure-logo.png';
+import figma from '../../assets/Figma-logo.webp';
+import python from '../../assets/Python-logo.webp';
+import azure from '../../assets/Azure-logo.webp';
 import PowerBIIcon from '../../icons/PowerBIIcon';
 import SAPIcon from '../../icons/SAPIcon';
 
@@ -81,6 +81,7 @@ const ExperienceCardRight = (props: ExperienceCardRightProps) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="SAP blog on SAP Analytic Application"
             href="https://community.sap.com/t5/technology-blogs-by-sap/gamification-with-sap-analytic-application-analytics-designer/ba-p/13525039"
           >
             {position + ' at ' + company}

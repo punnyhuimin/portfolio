@@ -29,6 +29,7 @@ const Contact = () => {
         <IconButton
           disableRipple
           target="_blank"
+          aria-label="Hui Min's Linkedin"
           rel="noopener noreferrer"
           sx={{ m: 0, padding: 0 }}
           href="https://linkedin.com/in/punhuimin"
@@ -37,6 +38,7 @@ const Contact = () => {
         </IconButton>
         <IconButton
           disableRipple
+          aria-label="Hui Min's Github"
           target="_blank"
           rel="noopener noreferrer"
           sx={{ m: 0, padding: 0 }}
@@ -46,6 +48,7 @@ const Contact = () => {
         </IconButton>
         <IconButton
           disableRipple
+          aria-label="Hui Min's Email"
           target="_blank"
           rel="noopener noreferrer"
           sx={{ m: 0, padding: 0 }}
